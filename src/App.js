@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
+import React from 'react';
+import NavBar from './NavBar';
+import Footer from './Footer';
+import Gallery1 from './Galleries/Gallery1';
+import Gallery2 from './Galleries/Gallery2';
+import Gallery3 from './Galleries/Gallery3';
 function App() {
   return (
     <div className="App">
@@ -18,6 +23,17 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <NavBar />
+      <Gallery1 />
+
+      <Gallery2 />
+      <Gallery3 />ß
+
+
+
+      <Footer />
+   
     </div>
   );
 }
